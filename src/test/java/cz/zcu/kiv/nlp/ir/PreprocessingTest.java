@@ -2,8 +2,8 @@ package cz.zcu.kiv.nlp.ir;
 
 import com.github.pemistahl.lingua.api.Language;
 import com.github.pemistahl.lingua.api.LanguageDetectorBuilder;
-import cz.zcu.kiv.nlp.ir.metacritic.serialization.MetacriticGame;
-import cz.zcu.kiv.nlp.ir.metacritic.serialization.MetacriticJsonDeserializer;
+import cz.zcu.kiv.nlp.ir.metacritic.MetacriticGame;
+import cz.zcu.kiv.nlp.ir.metacritic.MetacriticJsonDeserializer;
 import java.util.Set;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Level;

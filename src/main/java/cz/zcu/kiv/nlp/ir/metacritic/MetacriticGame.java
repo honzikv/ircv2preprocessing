@@ -1,4 +1,4 @@
-package cz.zcu.kiv.nlp.ir.metacritic.serialization;
+package cz.zcu.kiv.nlp.ir.metacritic;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;

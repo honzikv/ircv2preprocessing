@@ -1,4 +1,4 @@
-package cz.zcu.kiv.nlp.ir.metacritic.serialization;
+package cz.zcu.kiv.nlp.ir.metacritic;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import java.util.Date;
@@ -22,5 +22,4 @@ public class MetacriticReview {
 
     private String text;
 
-    private Integer yearReleased;
 }

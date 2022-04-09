@@ -21,7 +21,7 @@ public class AdvancedTokenizer implements Tokenizer {
             "^((((https?|ftps?|gopher|telnet|nntp)://)|(mailto:|news:))" +
                     "(%[0-9A-Fa-f]{2}|[-()_.!~*';/?:@&=+$,A-Za-z0-9])+)" +
                     "([).!';/?:,][[:blank:]])?$";
-    public static final String CENSORED_REGEX = "\\w+\\**\\w*";
+    public static final String CENSORED_REGEX = "[\\w+À-ž]+\\*[\\w+À-ž]*|[\\w+À-ž]*\\*[\\w+À-ž]+";
     public static final String DATE_REGEX = "\\d{1,2}\\.\\s?\\d{1,2}\\.\\s*\\d{0,4}";
 
     // Used for cleaning out sentences that have some english in them but also other non-latin symbol such

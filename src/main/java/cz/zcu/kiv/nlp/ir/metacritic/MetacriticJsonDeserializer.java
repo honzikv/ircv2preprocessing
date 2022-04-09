@@ -1,4 +1,4 @@
-package cz.zcu.kiv.nlp.ir.metacritic.serialization;
+package cz.zcu.kiv.nlp.ir.metacritic;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.json.JsonMapper;
